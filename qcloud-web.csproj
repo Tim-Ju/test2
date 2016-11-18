@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <ProjectGuid>{2665C818-5A81-4519-8BBB-C635DA677AA5}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <OutputPath>bin</OutputPath>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <TypeScriptToolsVersion>1.9</TypeScriptToolsVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="develop\index.js" />
+    <Content Include="webpack\externals.js" />
+    <Content Include="webpack\webpack.config.js" />
+    <Content Include="webpack\webpack.dev.js" />
+    <Content Include="webpack\webpack.exp.js" />
+    <Content Include="webpack\webpack.prod.js" />
+    <Content Include="webpack\webpack.test.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="ambient\nmc.d.ts" />
+    <TypeScriptCompile Include="ambient\webpack.hot.d.ts" />
+    <TypeScriptCompile Include="develop\server\index.ts" />
+    <TypeScriptCompile Include="develop\server\server.ts" />
+    <TypeScriptCompile Include="index.tsx" />
+    <TypeScriptCompile Include="modules\todo\actions\todoActions.ts" />
+    <TypeScriptCompile Include="modules\todo\components\AddTodoDialog.tsx" />
+    <TypeScriptCompile Include="modules\todo\components\TodoActionPanel.tsx" />
+    <TypeScriptCompile Include="modules\todo\components\TodoApp.tsx" />
+    <TypeScriptCompile Include="modules\todo\components\TodoTablePanel.tsx" />
+    <TypeScriptCompile Include="modules\todo\constants\ActionType.ts" />
+    <TypeScriptCompile Include="modules\todo\index.tsx" />
+    <TypeScriptCompile Include="modules\todo\models\index.ts" />
+    <TypeScriptCompile Include="modules\todo\models\RootState.ts" />
+    <TypeScriptCompile Include="modules\todo\models\Todo.ts" />
+    <TypeScriptCompile Include="modules\todo\models\TodoFilter.ts" />
+    <TypeScriptCompile Include="modules\todo\reducers\RootReducer.ts" />
+    <TypeScriptCompile Include="modules\todo\stores\RootStore.ts" />
+    <TypeScriptCompile Include="modules\todo\WebAPI.ts" />
+    <TypeScriptCompile Include="typings\globals\classnames\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\express\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\flux\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\highcharts\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\jquery\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\marked\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\mime\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\node\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\react-addons-create-fragment\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\react-addons-css-transition-group\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\react-addons-linked-state-mixin\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\react-addons-perf\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\react-addons-pure-render-mixin\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\react-addons-test-utils\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\react-addons-transition-group\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\react-addons-update\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\react-dom\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\react-global\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\react-redux\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\react\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\redux-actions\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\redux-logger\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\redux-thunk\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\redux\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\serve-index\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\serve-static\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\source-map\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\uglify-js\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\webpack\index.d.ts" />
+    <TypeScriptCompile Include="typings\index.d.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".babelrc" />
+    <Content Include=".editorconfig" />
+    <Content Include=".gitignore" />
+    <Content Include="package.json" />
+    <Content Include="README.md" />
+    <Content Include="tsconfig.json" />
+    <Content Include="tslint.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="typings\globals\classnames\typings.json" />
+    <Content Include="typings\globals\express\typings.json" />
+    <Content Include="typings\globals\flux\typings.json" />
+    <Content Include="typings\globals\highcharts\typings.json" />
+    <Content Include="typings\globals\jquery\typings.json" />
+    <Content Include="typings\globals\marked\typings.json" />
+    <Content Include="typings\globals\mime\typings.json" />
+    <Content Include="typings\globals\node\typings.json" />
+    <Content Include="typings\globals\react-addons-create-fragment\typings.json" />
+    <Content Include="typings\globals\react-addons-css-transition-group\typings.json" />
+    <Content Include="typings\globals\react-addons-linked-state-mixin\typings.json" />
+    <Content Include="typings\globals\react-addons-perf\typings.json" />
+    <Content Include="typings\globals\react-addons-pure-render-mixin\typings.json" />
+    <Content Include="typings\globals\react-addons-test-utils\typings.json" />
+    <Content Include="typings\globals\react-addons-transition-group\typings.json" />
+    <Content Include="typings\globals\react-addons-update\typings.json" />
+    <Content Include="typings\globals\react-dom\typings.json" />
+    <Content Include="typings\globals\react-global\typings.json" />
+    <Content Include="typings\globals\react-redux\typings.json" />
+    <Content Include="typings\globals\react\typings.json" />
+    <Content Include="typings\globals\redux-actions\typings.json" />
+    <Content Include="typings\globals\redux-logger\typings.json" />
+    <Content Include="typings\globals\redux-thunk\typings.json" />
+    <Content Include="typings\globals\redux\typings.json" />
+    <Content Include="typings\globals\serve-index\typings.json" />
+    <Content Include="typings\globals\serve-static\typings.json" />
+    <Content Include="typings\globals\source-map\typings.json" />
+    <Content Include="typings\globals\uglify-js\typings.json" />
+    <Content Include="typings\globals\webpack\typings.json" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>_empty_ts</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets')" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>34502</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:34502/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptRemoveComments>false</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>true</TypeScriptSourceMap>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+</Project>

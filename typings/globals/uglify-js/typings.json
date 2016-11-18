@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/51b587292f2ba85d68939d9c59cf7fa745a6173e/uglify-js/uglify-js.d.ts",
+    "raw": "registry:dt/uglify-js#2.6.1+20160106153543",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/51b587292f2ba85d68939d9c59cf7fa745a6173e/uglify-js/uglify-js.d.ts"
+  }
+}

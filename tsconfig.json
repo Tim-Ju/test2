@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "outDir": "./tsbuild",
+    "sourceMap": true,
+    "jsx": "react",
+    "removeComments": true,
+    "noLib": false,
+    "preserveConstEnums": true,
+    "experimentalDecorators": true
+  },
+  "exclude": [
+    "node_modules",
+    "typings/browser.d.ts",
+    "typings/browser"
+  ],
+  "compileOnSave": false
+}

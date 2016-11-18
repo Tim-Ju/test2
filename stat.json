@@ -1,0 +1,320 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "1.12.14",
+  "hash": "52fa7793cc49e32b01d2",
+  "time": 11529,
+  "publicPath": "",
+  "assetsByChunkName": {
+    "main": "index.js"
+  },
+  "assets": [
+    {
+      "name": "index.js",
+      "size": 479,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": true
+    }
+  ],
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "extraAsync": false,
+      "size": 409,
+      "names": [
+        "main"
+      ],
+      "files": [
+        "index.js"
+      ],
+      "hash": "9123906bc5cba852670b",
+      "parents": [],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "multi main",
+          "name": "multi main",
+          "index": 0,
+          "index2": 3,
+          "size": 28,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": null,
+          "profile": {
+            "factory": 1,
+            "building": 1
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": []
+        },
+        {
+          "id": 1,
+          "identifier": "P:\\qcloud-framework\\qcloud-web\\node_modules\\babel-loader\\index.js!P:\\qcloud-framework\\qcloud-web\\node_modules\\ts-loader\\index.js!P:\\qcloud-framework\\qcloud-web\\index.tsx",
+          "name": "./index.tsx",
+          "index": 1,
+          "index2": 2,
+          "size": 297,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "multi main",
+          "profile": {
+            "factory": 29,
+            "building": 10036
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "multi main",
+              "module": "multi main",
+              "moduleName": "multi main",
+              "type": "single entry",
+              "userRequest": "./index.tsx"
+            }
+          ],
+          "source": "\"use strict\";\n\nvar React = require(\"react\");\nvar qcloud_nmc_1 = require(\"@tencent/qcloud-nmc\");\nqcloud_nmc_1.Entry.register({\n    businessKey: \"example\",\n    routes: {\n        index: {\n            title: \"概览-示例业务\",\n            container: React.createElement(\"div\", null, \"概览页\")\n        }\n    }\n});"
+        },
+        {
+          "id": 2,
+          "identifier": "external \"window.React\"",
+          "name": "external \"window.React\"",
+          "index": 2,
+          "index2": 0,
+          "size": 42,
+          "cacheable": false,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "P:\\qcloud-framework\\qcloud-web\\node_modules\\babel-loader\\index.js!P:\\qcloud-framework\\qcloud-web\\node_modules\\ts-loader\\index.js!P:\\qcloud-framework\\qcloud-web\\index.tsx",
+          "profile": {
+            "factory": 0,
+            "building": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "P:\\qcloud-framework\\qcloud-web\\node_modules\\babel-loader\\index.js!P:\\qcloud-framework\\qcloud-web\\node_modules\\ts-loader\\index.js!P:\\qcloud-framework\\qcloud-web\\index.tsx",
+              "module": "./index.tsx",
+              "moduleName": "./index.tsx",
+              "type": "cjs require",
+              "userRequest": "react",
+              "loc": "3:12-28"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "identifier": "external \"window.tea.nmc\"",
+          "name": "external \"window.tea.nmc\"",
+          "index": 3,
+          "index2": 1,
+          "size": 42,
+          "cacheable": false,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "P:\\qcloud-framework\\qcloud-web\\node_modules\\babel-loader\\index.js!P:\\qcloud-framework\\qcloud-web\\node_modules\\ts-loader\\index.js!P:\\qcloud-framework\\qcloud-web\\index.tsx",
+          "profile": {
+            "factory": 1,
+            "building": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "P:\\qcloud-framework\\qcloud-web\\node_modules\\babel-loader\\index.js!P:\\qcloud-framework\\qcloud-web\\node_modules\\ts-loader\\index.js!P:\\qcloud-framework\\qcloud-web\\index.tsx",
+              "module": "./index.tsx",
+              "moduleName": "./index.tsx",
+              "type": "cjs require",
+              "userRequest": "@tencent/qcloud-nmc",
+              "loc": "4:19-49"
+            }
+          ]
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": 0,
+          "module": "multi main",
+          "moduleIdentifier": "multi main",
+          "moduleName": "multi main",
+          "loc": "",
+          "name": "main",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "multi main",
+      "name": "multi main",
+      "index": 0,
+      "index2": 3,
+      "size": 28,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": null,
+      "profile": {
+        "factory": 1,
+        "building": 1
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": []
+    },
+    {
+      "id": 1,
+      "identifier": "P:\\qcloud-framework\\qcloud-web\\node_modules\\babel-loader\\index.js!P:\\qcloud-framework\\qcloud-web\\node_modules\\ts-loader\\index.js!P:\\qcloud-framework\\qcloud-web\\index.tsx",
+      "name": "./index.tsx",
+      "index": 1,
+      "index2": 2,
+      "size": 297,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "multi main",
+      "profile": {
+        "factory": 29,
+        "building": 10036
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "multi main",
+          "module": "multi main",
+          "moduleName": "multi main",
+          "type": "single entry",
+          "userRequest": "./index.tsx"
+        }
+      ],
+      "source": "\"use strict\";\n\nvar React = require(\"react\");\nvar qcloud_nmc_1 = require(\"@tencent/qcloud-nmc\");\nqcloud_nmc_1.Entry.register({\n    businessKey: \"example\",\n    routes: {\n        index: {\n            title: \"概览-示例业务\",\n            container: React.createElement(\"div\", null, \"概览页\")\n        }\n    }\n});"
+    },
+    {
+      "id": 2,
+      "identifier": "external \"window.React\"",
+      "name": "external \"window.React\"",
+      "index": 2,
+      "index2": 0,
+      "size": 42,
+      "cacheable": false,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "P:\\qcloud-framework\\qcloud-web\\node_modules\\babel-loader\\index.js!P:\\qcloud-framework\\qcloud-web\\node_modules\\ts-loader\\index.js!P:\\qcloud-framework\\qcloud-web\\index.tsx",
+      "profile": {
+        "factory": 0,
+        "building": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "P:\\qcloud-framework\\qcloud-web\\node_modules\\babel-loader\\index.js!P:\\qcloud-framework\\qcloud-web\\node_modules\\ts-loader\\index.js!P:\\qcloud-framework\\qcloud-web\\index.tsx",
+          "module": "./index.tsx",
+          "moduleName": "./index.tsx",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "3:12-28"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "identifier": "external \"window.tea.nmc\"",
+      "name": "external \"window.tea.nmc\"",
+      "index": 3,
+      "index2": 1,
+      "size": 42,
+      "cacheable": false,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "P:\\qcloud-framework\\qcloud-web\\node_modules\\babel-loader\\index.js!P:\\qcloud-framework\\qcloud-web\\node_modules\\ts-loader\\index.js!P:\\qcloud-framework\\qcloud-web\\index.tsx",
+      "profile": {
+        "factory": 1,
+        "building": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "P:\\qcloud-framework\\qcloud-web\\node_modules\\babel-loader\\index.js!P:\\qcloud-framework\\qcloud-web\\node_modules\\ts-loader\\index.js!P:\\qcloud-framework\\qcloud-web\\index.tsx",
+          "module": "./index.tsx",
+          "moduleName": "./index.tsx",
+          "type": "cjs require",
+          "userRequest": "@tencent/qcloud-nmc",
+          "loc": "4:19-49"
+        }
+      ]
+    }
+  ],
+  "filteredModules": 0,
+  "children": []
+}

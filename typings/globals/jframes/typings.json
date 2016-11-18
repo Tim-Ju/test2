@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/techird/jframes/master/jframes.d.ts",
+    "raw": "github:techird/jframes/jframes.d.ts",
+    "typings": "https://raw.githubusercontent.com/techird/jframes/master/jframes.d.ts"
+  }
+}

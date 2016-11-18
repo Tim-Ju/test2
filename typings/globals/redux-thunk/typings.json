@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/55de3b690b84ef9a2342fca589ba5a644845c600/redux-thunk/redux-thunk.d.ts",
+    "raw": "registry:dt/redux-thunk#2.0.1+20160308210923",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/55de3b690b84ef9a2342fca589ba5a644845c600/redux-thunk/redux-thunk.d.ts"
+  }
+}

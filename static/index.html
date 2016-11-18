@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href="//imgcache.qq.com/open_proj/proj_qcloud_v2/mc_2014/css/global.css?max_age=2000008" rel="stylesheet" data-role="global">
+    <link href="//imgcache.qq.com/open_proj/proj_qcloud_v2/bee/css/bee.css?max_age=20000015" rel="stylesheet" data-role="global">
+    <link href='//imgcache.qq.com/qcloud/app/resource/ac/favicon.ico' rel='icon' type='image/x-icon'>
+    <title>控制台开发环境使用指引</title>
+</head>
+<body>
+    <div id="react-root"></div>
+    <script src="//cdn.bootcss.com/jquery/2.2.1/jquery.min.js"></script>
+    <script src="http://imgcache.qq.com/qcloud/app/qccomponents/release/bee-ui-0.3.2.js"></script>
+    <script>
+        // hook seajs
+        window.seajs = window.seajs || {
+            require: function (id) {
+                if (id === "qccomponent") {
+                    return window.Bee;
+                }
+                if (id === "$") {
+                    return window.$;
+                }
+                return {}
+            }
+        };
+    </script>
+    <script src="/static/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/dd638012d63e069f2c99d06ef4dcc9616a943ee4/express/express.d.ts",
+    "raw": "registry:dt/express#4.0.0+20160208031452",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/dd638012d63e069f2c99d06ef4dcc9616a943ee4/express/express.d.ts"
+  }
+}

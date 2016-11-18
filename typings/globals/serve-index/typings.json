@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/a6cd92e3b7f9478617fa84bbe4ba91158c4baea3/serve-index/serve-index.d.ts",
+    "raw": "registry:dt/serve-index#1.7.2+20160105023018",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/a6cd92e3b7f9478617fa84bbe4ba91158c4baea3/serve-index/serve-index.d.ts"
+  }
+}

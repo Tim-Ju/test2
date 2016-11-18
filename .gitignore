@@ -1,0 +1,5 @@
+tsbuild
+.vs
+node_modules
+obj
+*.csproj.user

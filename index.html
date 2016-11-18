@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href="//imgcache.qq.com/open_proj/proj_qcloud_v2/mc_2014/css/global.css?max_age=2000008" rel="stylesheet" data-role="global">
+    <link href="//imgcache.qq.com/open_proj/proj_qcloud_v2/bee/css/bee.css?max_age=20000015" rel="stylesheet" data-role="global">
+    <link href='//imgcache.qq.com/qcloud/app/resource/ac/favicon.ico' rel='icon' type='image/x-icon'>
+    <title>控制台开发环境使用指引</title>
+    <style>
+        .onfocus-item {
+            border: 1px solid #a5c7fe !important;
+        }
+
+        .container {
+            transform: none;
+            transition: none;
+            height: auto;
+        }
+            .container.animate {
+                transition: left 0.3s;
+                transform: translate3d(0,0,0);
+            }
+
+        .tc-15-dropdown-in-hd .tc-15-dropdown-menu {
+            max-height: 215px;
+        }
+
+        .panel-content {
+            background-color: #fff;
+            border: 1px solid #d7d7d7;
+            box-shadow: 0 2px 3px #f3f3f3;
+        }
+    </style>
+</head>
+<body>
+    <div id="pageWrapper">
+        <div class="header">
+            <div class="topnav" id="topnav">
+                <h1>
+                    <a class="logo" href="http://www.qcloud.com" title="腾讯云" data-hot="header.qcloudid" data-event="hot_tag_link">腾讯云</a>
+                </h1>
+                <div class="top-panel">
+                    <ul class="top-menu pandect-menu">
+                        <li><a href="/">组件业务</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="container" style="left: 0;">
+        </div>
+    </div>
+    <script src="//cdn.bootcss.com/jquery/2.2.1/jquery.min.js"></script>
+    <script src="http://imgcache.qq.com/qcloud/app/qccomponents/release/bee-ui-0.3.2.js"></script>
+    <script src="//imgcache.qq.com/qcloud/app/third-party/babel-polyfill/6.4.7/polyfill.min.js"></script>
+    <script src="//imgcache.qq.com/qcloud/app/third-party/react/0.14.7/react-with-addons.js"></script>
+    <script>
+        // hook seajs
+        window.seajs = window.seajs || {
+            require: function (id) {
+                if (id === "qccomponent") {
+                    return window.Bee;
+                }
+                if (id === "$") {
+                    return window.$;
+                }
+                return {}
+            }
+        };
+        window.define = function () { };
+    </script>
+    <script src="//imgcache.qq.com/qcloud/app/tea/tea.js"></script>
+    <script src="/static/index.js"></script>
+    <script>
+        var container = document.getElementById('container');
+        var ReactDom = React.__SECRET_DOM_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+        ReactDom.render(todoExample, container);
+    </script>
+</body>
+</html>
