@@ -54,7 +54,7 @@ export class TodoTablePanel extends React.Component<RootProps, void> {
             query,
             onClearSearch: () => actions.performSearch(""),
             onRetry: () => actions.fetch(),
-            emptyTips: "您干掉了所有的 Todo，好棒！"
+            emptyTips: "当前列表为空"
         });
 
         return (

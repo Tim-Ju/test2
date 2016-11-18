@@ -72,7 +72,7 @@ export class AddTodoDialog extends React.Component<RootProps, DialogState> {
         const failed = workflow.operationState === OperationState.Done && !isSuccessWorkflow(workflow);
 
         return (
-            <Dialog caption="添加 Todo" onClose={cancel}>
+            <Dialog caption="添加任务" onClose={cancel}>
                 <DialogBody>
                     { failed &&
                         <p className="tc-15-msg error">
